@@ -1,0 +1,39 @@
+$bootstrap-sass-asset-helper: true;
+@import 'variables';
+@import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+.calendar {
+  text-align: center;
+  background: #fff;
+  &_nav {
+    &--prev,
+    &--next {
+      font-weight: bold;
+      cursor: pointer;
+      line-height: $font-size-h1 * $line-height-base;
+    }
+    &--prev {
+      text-align: left;
+    }
+    &--next {
+      text-align: right;
+    }
+    &--month {
+      font-weight: lighter;
+      font-size: $font-size-h1;
+      text-align: center;
+    }
+  }
+  & th {
+    text-align: center;
+    background: $brand-secondary;
+    color: #fff;
+  }
+  & > tbody > tr > td {
+    line-height: 4vw;
+    line-height: 4vmin;
+    &.outside {
+      color: #ccc;
+    }
+  }
+}

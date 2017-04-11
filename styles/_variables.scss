@@ -1,0 +1,25 @@
+
+$app-primary: #2196F3;
+$app-accent: #FF9100;
+// Typography
+$md-body-font-size-base: rem(1.400) !default;
+$md-font-family: Roboto, 'Helvetica Neue', sans-serif !default;
+
+// Display
+$std-border-radius: 2px;
+
+$bootstrap-sass-asset-helper: false !default;
+
+$body-bg:               #fafafa !default;
+
+$font-size-base:          16px !default;
+$font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
+
+$line-height-base: 1.6;
+
+$padding-base-vertical:     15px !default;
+$padding-base-horizontal:   30px !default;
+
+$brand-primary: #ff9940;
+$brand-secondary: #666;
