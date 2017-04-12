@@ -13,7 +13,7 @@ const Calendar = (props) => (
 )
 
 Calendar.propTypes = {
-  currentMonth: React.PropTypes.date.isRequired,
+  currentMonth: React.PropTypes.instanceOf(Date).isRequired,
   handleNavigation: React.PropTypes.func.isRequired
 }
 
